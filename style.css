@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Courgette', cursive;
+   
+  
+}
+
+body {
+        background-image: url(https://cdna.artstation.com/p/assets/images/images/004/399/956/large/jay-r-amaterasu.jpg?1483426058);
+        background-size: cover 150%;
+        background-position: top right;
+        background-repeat: no-repeat;
+        text-align: left;
+        filter: brightness(00.4s);
+      }
+      
+audio{
+    flex-direction:row;
+    flex-grow: 4;
+    align-items: end;
+    justify-content: space-between;
+    padding: 16px 10px;
+    border: none;
+    border-radius: 30px;
+    
+}
+audio:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+    transition: box-shadow 0.4s ease-in-out;
+}
+
+nav a {
+    margin-right: 40px;
+    margin-bottom: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0a0a0a;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 8px 55px;
+    border: #000000;
+    border-radius: 25px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.7);
+    transition: box-shadow 0.4s ease-in-out;
+   
+  }
+  
+nav a:hover{
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.7);
+}
+
+main h1{
+    text-align: left;
+    margin-left: 40px;
+    color: #ffffff;
+    
+}
+
+main h1 a{
+    color: #000000;
+    transition: box-shadow 0.3s ease-in-out;
+    font-size: 2rem;
+    border: #000000;
+    border-radius: 25px;
+    box box-shadow: 0 0 0 rgba (0, 0,0, 0.7) ;
+   
+}
+
+main h1 a:hover{
+    text-shadow: 0px 0px 4px #ffffff;
+    transition: text-shadow 0.2s ease-in;
+}
+
+main p{
+    text-align: left;
+    margin-left: 10px;
+    color: #070707;
+    padding margin-bottom: 35px;
+    
+}
+main p:hover{
+    text-shadow: 0px 0px 4px #ffffff;
+    transition: text-shadow 0.4s ease-in;
+}
+
+footer .cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: row;
+    margin-left: 1px;
+    margin-top: 2em;
+    padding: 30px;
+    padding-bottom: 5em;
+}
+
+footer .cards .card{
+    height: 280px;
+    max-width: 450px;
+    box-shadow: 12px 12px 32px 12px rgb(0, 0, 0);
+    margin-left: -120px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px ;
+    border-top-right-radius: 40px;s
+}
+
+footer .cards .card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.cards .card:hover{
+    transform: translateY(-40px) rotate(15deg);
+}
+
+.cards .card:hover ~ .card{
+    transform: translate(200px);
+}
